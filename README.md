@@ -1,7 +1,7 @@
-Hi ! My name is Kunta Solomon Dongo
+Hi! My name is Kunta Solomon Dongo
 ============================================================================================================================================
 
-DevSecOps Engineer
+🔐⚙️☁️DevSecOps Engineer
 ------------------
 
 🖥️ CS | 🛡️ Cybersecurity | ⚙️ SWE
