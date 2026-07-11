@@ -252,21 +252,6 @@ Delivered end-to-end web application projects spanning frontend architecture to 
 
 ---
 
-## GitHub Analytics
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=DesusLove&show_icons=true&theme=tokyonight&border_radius=10&hide_border=false&include_all_commits=true&count_private=true)](https://github.com/DesusLove)&nbsp;
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=DesusLove&theme=tokyonight&border_radius=10&hide_border=false)](https://github.com/DesusLove)
-
-<br/>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DesusLove&layout=compact&theme=tokyonight&border_radius=10&hide_border=false&langs_count=8)](https://github.com/DesusLove)
-
-</div>
-
----
-
 ## Contribution Activity
 
 <div align="center">
