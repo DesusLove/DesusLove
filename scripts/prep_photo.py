@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 from rembg import remove
 
-CLIP_LIMIT = 3.0
+CLIP_LIMIT = 5.0
 GRID_SIZE = (8, 8)
 
 
@@ -19,6 +19,7 @@ def main():
     dst = sys.argv[2] if len(sys.argv) > 2 else "source-prepped.png"
 
     img = Image.open(src).convert("RGB")
+
     img_no_bg = remove(img, post_process_mask=True)
     no_bg_arr = np.array(img_no_bg.convert("RGB"))
 

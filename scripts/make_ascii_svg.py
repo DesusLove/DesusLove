@@ -6,9 +6,9 @@ import numpy as np
 from PIL import Image
 
 # --- tunables ---
-CONTRAST = 1.4
-GAMMA = 0.85
-WHITE_FLOOR = 20
+CONTRAST = 1.0
+GAMMA = 2.0
+WHITE_FLOOR = 40
 ROW_DUR = 0.08
 STAGGER = 0.015
 import os
