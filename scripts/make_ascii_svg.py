@@ -70,6 +70,9 @@ def main():
     lines_xml.append(f'text {{ font:{FONT_SIZE}px {FONT_FAMILY}; fill:{COLOR}; }}')
     lines_xml.append(f'</style>')
 
+    def esc(c):
+        return c.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace('"', "&quot;")
+
     idx = 0
     for r in range(rows_out):
         row_text = chars[r]
@@ -77,16 +80,17 @@ def main():
         y = 15 + r * char_h * 1.2
         for ci, ch in enumerate(row_text):
             delay = r * ROW_DUR + ci * STAGGER
+            ch_esc = esc(ch)
             if STATIC:
                 lines_xml.append(
-                    f'<text x="{x:.1f}" y="{y:.1f}">{ch}</text>'
+                    f'<text x="{x:.1f}" y="{y:.1f}">{ch_esc}</text>'
                 )
             else:
                 lines_xml.append(
                     f'<text x="{x:.1f}" y="{y:.1f}" opacity="0">'
                     f'<animate attributeName="opacity" from="0" to="1" '
                     f'begin="{delay:.3f}s" dur="0.01s" fill="freeze"/>'
-                    f'{ch}</text>'
+                    f'{ch_esc}</text>'
                 )
             x += char_w
             idx += 1
