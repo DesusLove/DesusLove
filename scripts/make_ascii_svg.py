@@ -1,6 +1,5 @@
 """Convert source-prepped.png -> avi-ascii.svg — monochrome ASCII portrait."""
 
-import os
 from math import ceil
 
 import numpy as np
@@ -12,8 +11,10 @@ GAMMA = 0.85
 WHITE_FLOOR = 20
 ROW_DUR = 0.08
 STAGGER = 0.015
+import os
 STATIC = int(os.environ.get("STATIC", "0"))
 COLS = 80
+MAX_ROWS = 50
 CHAR_SET = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~<>i!lI;:,\"^`'. "
 COLOR = "#c9d1d9"
 BG = "#0d1117"
@@ -26,7 +27,7 @@ def main():
     img = Image.open("source-prepped.png").convert("L")
     w, h = img.size
 
-    rows = int(h / w * COLS / CHAR_RATIO)
+    rows = min(int(h / w * COLS / CHAR_RATIO), MAX_ROWS)
     small = img.resize((COLS, rows), Image.LANCZOS)
     pixels = np.array(small, dtype=np.float32)
 
@@ -42,7 +43,7 @@ def main():
             val = pixels[r, c]
             if val >= 255 - WHITE_FLOOR:
                 val = 255
-            idx = int((255 - val) / 255 * (n_levels - 1))
+            idx = int(val / 255 * (n_levels - 1))
             idx = max(0, min(idx, n_levels - 1))
             line.append(CHAR_SET[idx])
         chars.append("".join(line))
