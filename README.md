@@ -1,24 +1,28 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=140&section=header&text=&animation=fadeIn" width="100%" />
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=2800&pause=1200&color=A78BFA&center=true&vCenter=true&width=960&lines=Kunta+Solomon+Dongo;DevSecOps+Engineer+%7C+Security+Architect;Full-Stack+Engineer+%7C+Cloud+Security;AWS+Certified+%7C+Zero-Trust+Systems+Builder)](https://git.io/typing-svg)
+
+<br/>
+
 <div align="center">
 
-<table>
-<tr>
-<td valign="top"><img src="./avi-ascii.svg" width="370" alt="ASCII portrait" /></td>
-<td valign="top"><img src="./info-card.svg" width="490" alt="Experience, stack, highlights" /></td>
-</tr>
-</table>
+![DevSecOps](https://img.shields.io/badge/DevSecOps_Engineer-161B22?style=flat-square&logo=shieldsdotio&logoColor=A78BFA)&nbsp;
+![Security](https://img.shields.io/badge/Security_Architect-161B22?style=flat-square&logo=hackthebox&logoColor=A78BFA)&nbsp;
+![Cloud](https://img.shields.io/badge/Cloud_Engineer-161B22?style=flat-square&logo=amazonaws&logoColor=A78BFA)&nbsp;
+![Location](https://img.shields.io/badge/China-161B22?style=flat-square&logo=googlemaps&logoColor=A78BFA)
 
-## Kunta Solomon Dongo
+<br/>
 
-**DevSecOps Engineer · Security Architect · Full-Stack Engineer**
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-DesusLove-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/DesusLove)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-kunta--solomon--dongo-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kunta-solomon-dongo)
-[![Email](https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kuntasolomon99@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-A78BFA?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/DesusLove)&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kunta-solomon-dongo)&nbsp;
+[![Email](https://img.shields.io/badge/Email-Reach_Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kuntasolomon99@gmail.com)&nbsp;
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DesusLove)
 
-<br>
+<br/>
 
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution graph" />
+![Profile Views](https://komarev.com/ghpvc/?username=DesusLove&color=A78BFA&style=flat-square&label=Profile+Views)&nbsp;
+[![Followers](https://img.shields.io/github/followers/DesusLove?style=flat-square&color=6366F1&label=Followers&logo=github&logoColor=white)](https://github.com/DesusLove)&nbsp;
+[![Stars](https://img.shields.io/github/stars/DesusLove?style=flat-square&color=A78BFA&label=Stars&logo=github&logoColor=white)](https://github.com/DesusLove)
 
 </div>
 
